@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Static Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ModernSite</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="content/about.html">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero" id="home">
+        <h1>Welcome to ModernSite</h1>
+        <p class="subtitle">A beautiful, modern static website served with Docker & Nginx.</p>
+        <a href="#features" class="cta-btn">Learn More</a>
+    </header>
+    <main>
+        <section class="features" id="features">
+            <h2>Features</h2>
+            <div class="feature-list">
+                <div class="feature">
+                    <span class="icon">🚀</span>
+                    <h3>Fast & Lightweight</h3>
+                    <p>Served with Nginx in a minimal Docker container for speed and efficiency.</p>
+                </div>
+                <div class="feature">
+                    <span class="icon">🎨</span>
+                    <h3>Modern Design</h3>
+                    <p>Clean, responsive layout with a fresh color palette and Google Fonts.</p>
+                </div>
+                <div class="feature">
+                    <span class="icon">🛠️</span>
+                    <h3>Easy to Customize</h3>
+                    <p>Organized folder structure for content, styles, and assets.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form" autocomplete="off">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ModernSite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
